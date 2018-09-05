@@ -1,0 +1,114 @@
+
+
+
+
+#logo {    
+
+    @include padd(0);margin: 0;
+          width: 50vh;padding-left: 5vh;
+          
+   }
+   
+   
+   
+   header
+   {
+       background: url(../img/back1.jpg);
+   }
+   .navbar {  
+       @include padd(0); 
+       
+       ul {
+           display: flex;width: 58%;  @include padd(0);                                                 
+          }
+   
+          li {
+              flex: 1;}
+           a
+           {
+               @include fos(1.3em);
+           }
+                                    
+   }
+   .card-body
+   {      
+       h4,p{
+           text-align: center;padding-top: 1em;
+       }
+   }
+   .jumbotron
+   {
+       @include padd(0);
+       margin: 0;padding-top:16vh;width: 100%;
+   } 
+   
+   .login
+   {
+       @include padd(0);
+       
+       
+       padding-bottom: 18vh;
+       padding-top: 18vh;
+       background-color:rgba(211, 211, 211, 0.541);
+       button{
+           margin: 3vh;margin-left: 0;
+       }
+   
+   } 
+   #showw
+   {     background-color:url(../img/backk.jpg);
+       img{
+           @include padd(2vh);
+           width:100%;border-radius: 3vw;
+       }
+       .thumbnail {
+           @include padd(2vh);align-content : center;
+           p
+           {
+               text-align: center;
+              @include col(antiquewhite); 
+               @include fos(1.3em);
+           }
+           button
+           {
+               width: 100%;
+               margin: 5vh;
+               @include padd(0);
+               margin-left: 0;
+               margin-right: 2vh;
+           }
+       }
+   }
+   #contact
+   {  
+       @include padd(4vh);
+       margin: 4vw;
+       @include col(antiquewhite); 
+   }  
+   footer{ 
+       background-color: black;
+       @include col(antiquewhite); 
+       ul{   padding-top: 2vh;
+           display: flex;    }
+           li{
+               flex:1;
+               list-style: none;
+               img{
+                   width: 5vh;
+                   height: 5vh;
+               }
+               a:hover{
+                   img {
+                       width: 7vh;
+                       height: 7vh;
+                   }
+               }
+           }
+       h4 {
+           @include fos(1.5em);
+           @include col(antiquewhite); 
+           font-family: 'Dancing Script', 'cursive';
+       }
+   } 
+   
+   

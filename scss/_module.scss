@@ -1,0 +1,14 @@
+@mixin padd($padding)
+{
+    padding: $padding;
+}
+@mixin fos($p)
+{
+    font-size: $p;
+}
+@mixin col($a)
+{
+    color:$a;
+}
+$primary-color:#d6ecf3a1;
+$font-stack:'Josefin Sans', 'sans-serif';
