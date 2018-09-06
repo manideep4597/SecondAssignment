@@ -9,10 +9,10 @@
 </head>
 <body id="top">
   <header class="fixed-top">
-     <img class="img-fluid"id="logo" src="img/fcb.png">
+     <img class="img-fluid" id="logo" src="img/fcb.png" alt="LOGO">
   <nav class="navbar navbar-expand-md  navbar-dark">
        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -27,7 +27,7 @@
         <a  href="#Tickets">Tickets</a>
       </li>
       <li class="nav-item active">
-        <a  href="#Sign In">Sign In</a>
+        <a  href="#SignIn">Sign In</a>
       </li> 
       
       <li class="nav-item active">
@@ -39,7 +39,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-success active my-2 my-sm-0" type="submit"data-toggle="modal" data-target="#mymod">Search</button>
+        <button class="btn btn-success active my-2 my-sm-0" type="submit" data-toggle="modal"  data-target="#mymod">Search</button>
       </form>
   </div>  
 </nav>
@@ -55,7 +55,7 @@
           
 
 
-<div class="login" class="container" id="Sign In">
+<div class="login container" id="SignIn">
   
          <form class="form-horizontal" role="form" method="POST" action="/login">
             <div class="card-group">
@@ -72,7 +72,7 @@
                         <label class="sr-only" for="email">E-Mail Address</label>
                         <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                             <div class="input-group-addon" ><i class="fa fa-at"></i></div>
-                            <input type="text" name="email" class="form-control" id="email"
+                            <input type="text" name="email" class="form-control" 
                                    placeholder="you@example.com" required autofocus>
                         </div>
                     </div>
@@ -114,14 +114,15 @@
             <div class="card-group">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
-                    <button type="submit" class="btn btn-success"data-toggle="modal"data-target="#mymod"><i class="fa fa-sign-in"></i> Login</button>
-                    <a class="btn btn-link" data-toggle="modal"href="#mymod">Forgot Your Password?</a>
+                    <button type="submit" class="btn btn-success" data-toggle="modal" 
+                    data-target="#mymod"><i class="fa fa-sign-in"></i> Login</button>
+                    <a class="btn btn-link"  data-toggle="modal" href="#mymod">Forgot Your Password?</a>
                 </div>
             </div>
         </form>
     </div>
 
-</div>
+
 
    <div id="Tickets">
       <div id="Tic" class="carousel slide" data-ride="carousel">
@@ -136,10 +137,10 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  class="img-fluid" class="img-responsive"src="img/11.jpg"  alt="First Match">
+      <img  class="img-fluid img-responsive" src="img/11.jpg"  alt="First Match">
       <div class="carousel-caption">
     <h3>
-      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit" data-toggle="modal"data-target="#mymod">
+      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit"  data-toggle="modal" data-target="#mymod">
         Buy Now
       </button>
     </h3>
@@ -147,10 +148,10 @@
   </div>
     </div>
     <div class="carousel-item">
-      <img  class="img-fluid" class="img-responsive"src="img/10.jpg"  alt="2nd Match">
+      <img  class="img-fluid img-responsive" src="img/10.jpg"  alt="2nd Match">
       <div class="carousel-caption">
     <h3>
-      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit"data-toggle="modal" data-target="#mymod">
+      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit" data-toggle="modal"  data-target="#mymod">
       Buy Now
     </button>
     </h3>
@@ -171,12 +172,12 @@
   </div>
    </div>
 
-   <div class="team" class="container"id="squad">
+   <div class="team container" id="squad">
       <div class="card ">
     <div class="card-body"><h3 class="text-center">Squad</h3></div>
   </div>
   <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/1.jpg" alt="TEr Setegen">
@@ -186,7 +187,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/2.jpg" alt="Nelson Semedo">
@@ -195,7 +196,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div> 
- <div class="card" class="clm-md-4">
+ <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/3.jpg" alt="Pique">
@@ -208,7 +209,7 @@
 </div>
 
 <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/4.jpg" alt="Rakitic">
@@ -217,7 +218,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/5.jpg" alt="Sergio Busquests">
@@ -225,7 +226,7 @@
     <p class="card-text">Midfielder</p>
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
-</div>  <div class="card" class="clm-md-4">
+</div>  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/6.jpg" alt="Suarez">
@@ -237,7 +238,7 @@
   
 </div>
 <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/7.jpg" alt="Coutinho">
@@ -246,7 +247,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/8.jpg" alt="Athur">
@@ -254,7 +255,7 @@
     <p class="card-text">Midfielder</p>
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
-</div>  <div class="card" class="clm-md-4">
+</div>  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/9.jpg" alt="Suarez">
@@ -266,7 +267,7 @@
   
 </div>
 <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/10.jpg" alt="Lionel Messi">
@@ -275,7 +276,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/11.jpg" alt="Dembelle">
@@ -283,7 +284,7 @@
     <p class="card-text">Forward</p>
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
-</div>  <div class="card" class="clm-md-4">
+</div>  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/12.jpg" alt="Rafinha">
@@ -295,7 +296,7 @@
   
 </div>
 <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/14.jpg" alt="Manlcom">
@@ -304,7 +305,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/16.jpg" alt="Samper">
@@ -312,7 +313,7 @@
     <p class="card-text">Midfielder</p>
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
-</div>  <div class="card" class="clm-md-4">
+</div>  <div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/18.jpg" alt="Jordi ALba">
@@ -325,7 +326,7 @@
 </div>
 
 <div class="card-group">
-  <div class="card" class="clm-md-4">
+  <div class="card clm-md-4">
  
   <div class="card-body" >
      <img class="card-img-top" src="img/players/20.jpg" alt="Roberto">
@@ -334,7 +335,7 @@
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
 </div>  
-<div class="card" class="clm-md-4">
+<div class="card clm-md-4">
   
   <div class="card-body" >
     <img class="card-img-top" src="img/players/22.jpg" alt="Vidal">
@@ -342,7 +343,7 @@
     <p class="card-text">Midfielder</p>
     <a href="#" class="btn btn-primary">See Profile</a>
   </div>
-</div>  <div class="card" class="clm-md-4">
+</div>  <div class="card clm-md-4">
   
   <div class="card-body"  >
     <img class="card-img-top" src="img/players/23.jpg" alt="Umtiti">
@@ -359,13 +360,13 @@
     <div class="card-body"><h3 class="text-center">Shop</h3></div>
   </div>
 
-    <div class="row"id="showw">
+    <div class="row" id="showw">
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src="img/jer.jpg" class="img-fluid" alt="Barcelona Jersey" >
           <p><strong>Barcelona Jersey</strong></p>
           
-          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+          <button class="btn"  data-toggle="modal"  data-target="#mymod">Buy</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -373,15 +374,15 @@
           <img src="img/shoe.jpg" class="img-fluid" alt="Shoe" >
           <p><strong>Soccer Shoe</strong></p>
           
-          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+          <button class="btn"  data-toggle="modal"  data-target="#mymod">Buy</button>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="img/football.jpg"class="img-fluid" alt="Foot ball" >
+          <img src="img/football.jpg" class="img-fluid" alt="Foot ball" >
           <p><strong>Foot Ball</strong></p>
           
-          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+          <button class="btn"  data-toggle="modal"  data-target="#mymod">Buy</button>
         </div>
       </div>
     </div> 
@@ -412,7 +413,7 @@
       <br>
       <div class="row">
         <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit" data-toggle="modal" data-target="#mymod">Send</button>
+          <button class="btn pull-right" type="submit"  data-toggle="modal"  data-target="#mymod">Send</button>
         </div>
       </div>
     </div>
